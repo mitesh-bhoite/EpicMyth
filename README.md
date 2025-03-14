@@ -51,7 +51,8 @@ If you would like to contribute to this project, feel free to fork the repositor
 For any inquiries, reach out at:
 
 - **Email:** mitesh07bhoite@gmail.com
-- **LinkedIn:** [Your Profile](www.linkedin.com/in/mitesh-bhoite-315613283)
+- **LinkedIn:** www.linkedin.com/in/mitesh-bhoite-315613283
+- **EpicMyth - Portfolio Website :** https://epicmyth.netlify.app/
 
 ---
 
