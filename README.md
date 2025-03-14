@@ -22,11 +22,11 @@ To run the project locally, follow these steps:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/epicmyth.git
+   git clone https://github.com/mitesh-bhoite/EpicMyth.git
    ```
 2. Navigate to the project folder:
    ```sh
-   cd epicmyth
+   cd EpicMyth
    ```
 3. Open the `index.html` file in your browser.
 
