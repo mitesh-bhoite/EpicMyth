@@ -50,8 +50,8 @@ If you would like to contribute to this project, feel free to fork the repositor
 
 For any inquiries, reach out at:
 
-- **Email:** your-email@example.com
-- **LinkedIn:** [Your Profile](https://www.linkedin.com/in/yourprofile)
+- **Email:** mitesh07bhoite@gmail.com
+- **LinkedIn:** [Your Profile](www.linkedin.com/in/mitesh-bhoite-315613283)
 
 ---
 
