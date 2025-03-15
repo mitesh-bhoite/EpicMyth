@@ -66,3 +66,7 @@ function typeEffect() {
     setTimeout(typeEffect, isDeleting ? 100 : 150);
   }
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  typeEffect();
+});
