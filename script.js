@@ -51,9 +51,9 @@ let isDeleting = false;
 function typeEffect() {
   const currentWord = words[wordIndex];
   if (isDeleting) {
-      typedText.textContent = currentWord.substring(0, charIndex--);
+    typedText.textContent = currentWord.substring(0, charIndex--);
   } else {
-      typedText.textContent = currentWord.substring(0, charIndex++);
+    typedText.textContent = currentWord.substring(0, charIndex++);
   }
   if (!isDeleting && charIndex === currentWord.length) {
     isDeleting = true;
@@ -62,3 +62,7 @@ function typeEffect() {
     isDeleting = false;
     wordIndex = (wordIndex + 1) % words.length;
     setTimeout(typeEffect, 500);
+  } else {
+    setTimeout(typeEffect, isDeleting ? 100 : 150);
+  }
+}
