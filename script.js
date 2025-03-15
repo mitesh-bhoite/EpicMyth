@@ -78,3 +78,7 @@ const body = document.body;
 themeToggle.addEventListener("click", () => {
   body.classList.toggle("dark-mode");
 });
+
+// Responsive navigation menu toggle
+const menuToggle = document.getElementById("menu-toggle");
+const navMenu = document.querySelector("nav ul");
