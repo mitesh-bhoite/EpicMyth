@@ -47,3 +47,11 @@ const words = ["Web Developer", "UI/UX Designer", "Freelancer"];
 let wordIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
+
+function typeEffect() {
+  const currentWord = words[wordIndex];
+  if (isDeleting) {
+      typedText.textContent = currentWord.substring(0, charIndex--);
+  } else {
+      typedText.textContent = currentWord.substring(0, charIndex++);
+  }
