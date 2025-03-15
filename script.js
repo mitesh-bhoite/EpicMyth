@@ -70,3 +70,7 @@ function typeEffect() {
 document.addEventListener("DOMContentLoaded", () => {
   typeEffect();
 });
+
+// Toggle dark/light mode
+const themeToggle = document.getElementById("theme-toggle");
+const body = document.body;
