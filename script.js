@@ -31,3 +31,13 @@ form.addEventListener("submit", (e) => {
     .catch((error) => console.error("Error!", error.message));
 });
 console.log("its ok");
+// Smooth scrolling for navigation links
+document.querySelectorAll("nav a").forEach((anchor) => {
+  anchor.addEventListener("click", function (e) {
+    e.preventDefault();
+    const targetId = this.getAttribute("href").substring(1);
+    document.getElementById(targetId).scrollIntoView({
+      behavior: "smooth",
+    });
+  });
+});
