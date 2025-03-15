@@ -41,3 +41,9 @@ document.querySelectorAll("nav a").forEach((anchor) => {
     });
   });
 });
+// Dynamic typing effect
+const typedText = document.getElementById("typed-text");
+const words = ["Web Developer", "UI/UX Designer", "Freelancer"];
+let wordIndex = 0;
+let charIndex = 0;
+let isDeleting = false;
