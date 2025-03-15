@@ -58,3 +58,7 @@ function typeEffect() {
   if (!isDeleting && charIndex === currentWord.length) {
     isDeleting = true;
     setTimeout(typeEffect, 1000);
+  } else if (isDeleting && charIndex === 0) {
+    isDeleting = false;
+    wordIndex = (wordIndex + 1) % words.length;
+    setTimeout(typeEffect, 500);
