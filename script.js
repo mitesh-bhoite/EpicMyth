@@ -55,3 +55,6 @@ function typeEffect() {
   } else {
       typedText.textContent = currentWord.substring(0, charIndex++);
   }
+  if (!isDeleting && charIndex === currentWord.length) {
+    isDeleting = true;
+    setTimeout(typeEffect, 1000);
